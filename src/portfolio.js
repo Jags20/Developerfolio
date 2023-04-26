@@ -19,11 +19,16 @@ const illustration = {
   animated: true // Set to false to use static SVG
 };
 
+
+
 const greeting = {
-  username: "Sankat Mochan",
-  title: "Heyy, I am Mochan",
-  subTitle: emoji(
-    "I am a driven and enthusiastic Full Stack Software Developer with a passion for creating innovative solutions. Currently, I am a pre-final year student at IIIT Gwalior, pursuing a dual degree course in B.Tech in Information Technology and MBA."
+  username: "Jagdamba Manikant",
+  title: "Heyy, I am Manikant",
+  subTitle: emoji(`I am a versatile front-end developer with a strong business background. After completing my MBA degree, I discovered my passion for coding and decided to pursue a career in web development.
+  My proficiency in HTML, CSS, and JavaScript, coupled with my knowledge of the latest front-end framework React, enables me to create engaging and responsive web applications.
+  In addition to my technical skills, I am an excellent communicator and collaborator. I can work closely with stakeholders and team members to understand their needs `
+
+    // "I am a driven and enthusiastic Frontend Web Developer with a passion for creating innovative solutions. Currently, I am a pre-final year student at IIIT Gwalior, pursuing a dual degree course in B.Tech in Information Technology and MBA."
     // "A passionate Full Stack Software Developer currently in 4th year pursuing integrated B.Tech in Information Technology and MBA from IIIT Gwalior."
     // 4having an experience of building Web applications with JavaScript / Reactjs / Nodejs / and some other cool libraries and frameworks."
   ),
@@ -35,13 +40,13 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/smochan",
-  linkedin: "https://www.linkedin.com/in/smochan/",
-  gmail: "smochan07@gmail.com",
+  github: "https://github.com/Jags20",
+  linkedin: "www.linkedin.com/in/jagdamba-manikant-46383a184",
+  gmail: "jagsmk2.0@gmail.com",
   // gitlab: "https://gitlab.com/saadpasta",
   // facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@smochan07",
-  stackoverflow: "https://stackoverflow.com/users/12423297/smochan",
+  // medium: "https://medium.com/@smochan07",
+  // stackoverflow: "https://stackoverflow.com/users/12423297/smochan",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -66,30 +71,30 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    {
-      skillName: "AWS",
-      fontAwesomeClassname: "fab fa-aws",
-      image: require("./assets/images/aws.webp")
-    },
-    {
-      skillName: "Bash",
-      image: require("./assets/images/bash.png")
-    },
+    // {
+    //   skillName: "AWS",
+    //   fontAwesomeClassname: "fab fa-aws",
+    //   image: require("./assets/images/aws.webp")
+    // },
+    // {
+    //   skillName: "Bash",
+    //   image: require("./assets/images/bash.png")
+    // },
     {
       skillName: "CSS",
       fontAwesomeClassname: "fab fa-css3-alt",
       image: require("./assets/images/css.png")
     },
-    {
-      skillName: "C++",
-      fontAwesomeClassname: "fab fa-c++",
-      image: require("./assets/images/c++.png")
-    },
-    {
-      skillName: "Docker",
-      fontAwesomeClassname: "fab fa-docker",
-      image: require("./assets/images/docker.webp")
-    },
+    // {
+    //   skillName: "C++",
+    //   fontAwesomeClassname: "fab fa-c++",
+    //   image: require("./assets/images/c++.png")
+    // },
+    // {
+    //   skillName: "Docker",
+    //   fontAwesomeClassname: "fab fa-docker",
+    //   image: require("./assets/images/docker.webp")
+    // },
     {
       skillName: "Firebase",
       fontAwesomeClassname: "fas fa-fire",
@@ -103,15 +108,15 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "Github",
       image: require("./assets/images/github-dark.png")
     },
-    {
-      skillName: "Go",
-      fontAwesomeClassname: "fab fa-golang",
-      image: require("./assets/images/go.png")
-    },
-    {
-      skillName: "Heroku",
-      image: require("./assets/images/heroku.webp")
-    },
+    // {
+    //   skillName: "Go",
+    //   fontAwesomeClassname: "fab fa-golang",
+    //   image: require("./assets/images/go.png")
+    // },
+    // {
+    //   skillName: "Heroku",
+    //   image: require("./assets/images/heroku.webp")
+    // },
     {
       skillName: "HTML",
       fontAwesomeClassname: "fab fa-html5",
@@ -131,11 +136,11 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "Linux",
       image: require("./assets/images/linux.png")
     },
-    {
-      skillName: "MongoDB",
-      fontAwesomeClassname: "fas fa-database",
-      image: require("./assets/images/mongodb.png")
-    },
+    // {
+    //   skillName: "MongoDB",
+    //   fontAwesomeClassname: "fas fa-database",
+    //   image: require("./assets/images/mongodb.png")
+    // },
     {
       skillName: "NextJS",
       fontAwesomeClassname: "fab fa-react",
@@ -151,36 +156,36 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-npm",
       image: require("./assets/images/npm.png")
     },
-    {
-      skillName: "Python",
-      fontAwesomeClassname: "fab fa-python",
-      image: require("./assets/images/python.webp")
-    },
+    // {
+    //   skillName: "Python",
+    //   fontAwesomeClassname: "fab fa-python",
+    //   image: require("./assets/images/python.webp")
+    // },
     {
       skillName: "React",
       fontAwesomeClassname: "fab fa-react",
       image: require("./assets/images/reactjs.png")
     },
-    {
-      skillName: "SASS",
-      fontAwesomeClassname: "fab fa-sass",
-      image: require("./assets/images/sass.png")
-    },
+    // {
+    //   skillName: "SASS",
+    //   fontAwesomeClassname: "fab fa-sass",
+    //   image: require("./assets/images/sass.png")
+    // },
     {
       skillName: "SEO",
       fontAwesomeClassname: "fas fa-search",
       image: require("./assets/images/seo.png")
     },
-    {
-      skillName: "SQL",
-      fontAwesomeClassname: "fas fa-database",
-      image: require("./assets/images/sql.png")
-    },
-    {
-      skillName: "TypeScript",
-      fontAwesomeClassname: "fab fa-typescript",
-      image: require("./assets/images/ts.png")
-    },
+    // {
+    //   skillName: "SQL",
+    //   fontAwesomeClassname: "fas fa-database",
+    //   image: require("./assets/images/sql.png")
+    // },
+    // {
+    //   skillName: "TypeScript",
+    //   fontAwesomeClassname: "fab fa-typescript",
+    //   image: require("./assets/images/ts.png")
+    // },
     {
       skillName: "TailwindCSS",
       image: require("./assets/images/tailwind.png")
@@ -189,15 +194,15 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "Ubuntu",
       image: require("./assets/images/ubuntu.png")
     },
-    {
-      skillName: "Vercel",
-      image: require("./assets/images/vercel.svg")
-    },
-    {
-      skillName: "Vue",
-      fontAwesomeClassname: "fab fa-vuejs",
-      image: require("./assets/images/vue.png")
-    },
+    // {
+    //   skillName: "Vercel",
+    //   image: require("./assets/images/vercel.svg")
+    // },
+    // {
+    //   skillName: "Vue",
+    //   fontAwesomeClassname: "fab fa-vuejs",
+    //   image: require("./assets/images/vue.png")
+    // },
     // {
     //   skillName: "expressjs",
     //   fontAwesomeClassname: "fab fa-node",
@@ -214,24 +219,24 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Indian Institute of Information Technology and Management, Gwalior",
-      logo: require("./assets/images/iiitm.jpeg"),
-      subHeader: "Integrated B.Tech in Information Technology and MBA",
-      duration: "August 2019 - present",
+      schoolName: "IIMT Group Of Colleges Greater Noida",
+      // logo: require("./assets/images/iiitm.jpeg"),
+      subHeader: "Master of Business Administration",
+      duration: "2019 - 2021",
       // desc: "Participated in the research of XXX and published 3 papers.",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       // ]
     },
-    // {
-    //   schoolName: "Stanford University",
-    //   logo: require("./assets/images/stanfordLogo.png"),
-    //   subHeader: "Bachelor of Science in Computer Science",
-    //   duration: "September 2013 - April 2017",
-    //   desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-    //   descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    // }
+    {
+      schoolName: "Cimage",
+      // logo: require("./assets/images/stanfordLogo.png"),
+      subHeader: "Bachelor of Business Administration",
+      duration: "2016 - 2019",
+      // desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+    }
   ]
 };
 
@@ -242,16 +247,16 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend", //Insert stack or technology you have experience in
-      progressPercentage: "77%" //Insert relative proficiency in percentage
+      progressPercentage: "70%" //Insert relative proficiency in percentage
     },
-    {
-      Stack: "Backend",
-      progressPercentage: "85%"
-    },
-    {
-      Stack: "DSA and CP",
-      progressPercentage: "65%"
-    }
+    // {
+    //   Stack: "Backend",
+    //   progressPercentage: "85%"
+    // },
+    // {
+    //   Stack: "DSA and CP",
+    //   progressPercentage: "65%"
+    // }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -262,10 +267,10 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Backend Developer Intern",
-      company: "Airblack",
-      companylogo: require("./assets/images/airblack.png"),
-      date: "June 2022 – July 2022",
+      role: "Co-founder",
+      company: "Wowthings.in",
+      // companylogo: require("./assets/images/airblack.png"),
+      date: "Sept. 2020 – Dec 2022",
       // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
         "Developed new APIs according to business needs using Node.js, Express and MongoDB.",
@@ -273,17 +278,17 @@ const workExperiences = {
         "Wrote Python scripts to modify the database for any issues or to insert new data in the database."
       ]
     },
-    {
-      role: "Software Developer Intern",
-      company: "Jhaiho",
-      companylogo: require("./assets/images/jhaiho.png"),
-      date: "Nov 2021 – April 2022",
-      desc: "Worked with a team of 30+ members to serve the customers who need tattoos.",
-      descBullets: [
-        "Developed and Widgetized multiple modular UI using ReactJS, NextJS, and Typescript.",
-        "Gained experience with Website development, SEO, performance analysis, and optimizations."
-      ]
-    },
+    // {
+    //   role: "Software Developer Intern",
+    //   company: "Jhaiho",
+    //   companylogo: require("./assets/images/jhaiho.png"),
+    //   date: "Nov 2021 – April 2022",
+    //   desc: "Worked with a team of 30+ members to serve the customers who need tattoos.",
+    //   descBullets: [
+    //     "Developed and Widgetized multiple modular UI using ReactJS, NextJS, and Typescript.",
+    //     "Gained experience with Website development, SEO, performance analysis, and optimizations."
+    //   ]
+    // },
     // {
     //   role: "Software Engineer Intern",
     //   company: "Airbnb",
@@ -309,38 +314,38 @@ const bigProjects = {
   // subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/univ.png"),
-      projectName: "University Boradcasting App",
-      projectDesc: "A platform specific for university to share information among staff and students.",
+      // image: require("./assets/images/univ.png"),
+      projectName: "Wowthings",
+      projectDesc: "A E-commerce website for home decor and gardening.",
       footerLink: [
-        {
-          name: "Visit Website",
-          url: ""
-        },
-        {
-          name: "See code",
-          url: "https://github.com/smochan/univer-broadcast-server"
-        }
+        // {
+        //   name: "Visit Website",
+        //   url: ""
+        // },
+        // {
+        //   name: "See code",
+        //   url: "https://github.com/smochan/univer-broadcast-server"
+        // }
         //  you can add extra buttons here.
       ]
     },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Split-it",
-      projectDesc: "Working on this project to develop an expense tracker app similar to Splitwise.",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: ""
-        },
-        {
-          name: "See code",
-          url: ""
-        }
-      ]
-    }
+    // {
+    //   image: require("./assets/images/nextuLogo.webp"),
+    //   projectName: "Split-it",
+    //   projectDesc: "Working on this project to develop an expense tracker app similar to Splitwise.",
+    //   footerLink: [
+    //     {
+    //       name: "Visit Website",
+    //       url: ""
+    //     },
+    //     {
+    //       name: "See code",
+    //       url: ""
+    //     }
+    //   ]
+    // }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -425,7 +430,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -464,8 +469,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+91-9983332924",
-  email_address: "smochan07@gmail.com"
+  number: "+91-8252006427",
+  email_address: "jagsmk2.0@gmail.com"
 };
 
 // Twitter Section
